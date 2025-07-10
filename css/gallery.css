@@ -1,0 +1,26 @@
+.gallery-wall {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 1fr)); /* smaller tiles */
+  gap: 8px; /* smaller gaps */
+  margin-top: 1em;
+}
+
+.gallery-wall a {
+  display: block;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.gallery-wall img {
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+  transition: transform 0.25s ease;
+  cursor: pointer;
+  display: block;
+}
+
+.gallery-wall img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.4);
+}
