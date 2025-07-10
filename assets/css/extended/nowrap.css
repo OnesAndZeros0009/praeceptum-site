@@ -1,0 +1,7 @@
+.row {
+  white-space: nowrap;
+}
+
+.row>div {
+  display: inline-block;
+}

@@ -1,0 +1,12 @@
+<div class="gallery-wall">
+  {{ range sort (.Page.Resources.Match "images/*.{jpg,jpeg,png,gif}") "Name" "desc" }}
+    <div class="gallery-item">
+      <a href="{{ .RelPermalink }}" target="_blank">
+        <img src="{{ .RelPermalink }}" alt="{{ .Name }}" loading="lazy" />
+        <div class="image-title">
+          {{ replaceRE `\.[^.]+$` "" (path.Base .Name) }}
+        </div>
+      </a>
+    </div>
+  {{ end }}
+</div>

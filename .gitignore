@@ -1,0 +1,11 @@
+# Hugo cache
+resources/
+public/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE stuff
+.idea/
+.vscode/

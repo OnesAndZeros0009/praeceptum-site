@@ -1,0 +1,58 @@
+baseURL = 'https://praeceptum.org/'
+languageCode = 'en-us'
+title = 'Praeceptum — A Game of Magic and Alchemy'
+theme = 'PaperMod'
+enableRobotsTXT = true
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  description = "Praeceptum is a magic-based video game where you play as a wizard crafting spells using procedurally generated syllables."
+  author = "Jona de Klepper"
+  defaultTheme = "dark"
+  customCSS = ["css/gallery.css", "css/pixelart.css"]
+
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "features"
+    name = "Features"
+    url = "/features/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "media"
+    name = "Media"
+    url = "/media/"
+    weight = 4
+
+  [[menu.main]]
+    identifier = "blog"
+    name = "Devlog"
+    url = "/posts/"
+    weight = 5
+
+  [[menu.main]]
+    identifier = "buy"
+    name = "Buy"
+    url = "/buy/"
+    weight = 6
+
+#  [[menu.main]]
+#    identifier = "contact"
+#    name = "Contact"
+#    url = "/contact/"
+#    weight = 7
