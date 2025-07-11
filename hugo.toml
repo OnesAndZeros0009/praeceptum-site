@@ -9,10 +9,11 @@ enableRobotsTXT = true
 
 [params]
   description = "Praeceptum is a magic-based video game where you play as a wizard crafting spells using procedurally generated syllables."
-  author = "Jona de Klepper"
   defaultTheme = "dark"
   customCSS = ["css/gallery.css", "css/pixelart.css"]
 
+[assets.params]
+  favicon = "/favicon.ico"
 
 [menu]
   [[menu.main]]
