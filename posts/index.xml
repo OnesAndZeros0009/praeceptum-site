@@ -2,10 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Praeceptum — A Game of Magic and Alchemy</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://praeceptum.org/posts/</link>
     <description>Recent content in Posts on Praeceptum — A Game of Magic and Alchemy</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://praeceptum.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Started Development</title>
+      <link>https://praeceptum.org/posts/2025-07-14/</link>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+      <guid>https://praeceptum.org/posts/2025-07-14/</guid>
+      <description>&lt;h1 id=&#34;i-started-development&#34;&gt;I Started Development!&lt;/h1&gt;
+&lt;p&gt;I did a few things, such as:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Drew some more concept art.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Created a window class for handling the window. Who would have guessed?&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;window.pollEvents();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;window.clear();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;window.update();
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;window.isOpen();
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Implemented a chunk system to reduce memory usage and allow multithreading.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In order to save memory, chunks containing tiles with the same data are simplified into a &lt;strong&gt;UniformChunk&lt;/strong&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;tiles-padding-and-byte-alignment&#34;&gt;Tiles, Padding, and Byte Alignment&lt;/h2&gt;
+&lt;p&gt;Tile data is stored like so:&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
